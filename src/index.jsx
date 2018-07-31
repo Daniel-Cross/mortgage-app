@@ -1,7 +1,6 @@
 import 'raf/polyfill';
 import React from 'react';
 import { render } from 'react-dom';
+import MortgageCalculator from './mortgage-calculator/index';
 
-render((
-  <h1>Hello World!</h1>
-), document.getElementById('root'));
+render(<MortgageCalculator interestRate={3} />, document.getElementById('root'));
